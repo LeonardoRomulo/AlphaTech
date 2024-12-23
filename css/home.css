@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+/* topo */
+
+
+.topo{
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    padding: 35px 0;
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+
+}
+
+.topo img{
+    width: 80px;
+    height: 70px;
+}
+
+.texto-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.box-menu {
+    display: flex;
+    gap: 10px;
+    margin-right: 0;
+}
+
+.topo  a{
+    color: #233032;
+    font-size: 18px;
+}
+
+.slogan {
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 50%;
+    background-color: #2f86d6;
+    padding: 180px 0;
+}
+
+.texto-banner  {
+    width: 450px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    gap: 50px;
+}
+
+.texto-banner small {
+    margin-left: 0;
+}
+
+.banner img {
+    margin-right: 50%;
+}
+
+/*  ads 1 */
+
+.ads-1 {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #233032
+    ;
+}
+
+.texto-ads {
+    margin-left: 0;
+    color: #fff;
+}
+
+.btn {
+    margin-right: 0;
+    border: 1px solid #fff;
+    background-color: #2f86d6;
+    padding: 20px;
+}
+
+.btn img {
+   padding: 2px;
+}
+
+.btn a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* serviços */
+
+.servicos {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.info {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.info img {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+.subtitulo-servicos {
+    width: 900px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+ span {
+    color: #2f86d6;
+}
+/* Tabela */
+
+table img{
+    width: 200px;
+    height: 200px;   
+}
+
+
+
+/*  ads 2 */
+.ads-2 {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f86d6;
+}
+
+.texto-ads {
+    margin-left: 0;
+    color: #fff;
+}
+
+.btn-2 {
+    margin-right: 0;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: #233032;
+}
+
+.btn-2 img {
+   padding: 2px;
+}
+
+.btn-2 a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    padding: 100px 0;
+    width: 1024px;
+}
+.box-logo-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-bottom: 80px;
+}
+.box-logo-rodape img {
+    width: 80px;
+    height: 80px;
+}
+.txt-logo-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -360px;
+    padding: 10px;
+}
+/* paragrafos do rodape */
+.paragrafo p {
+    padding: 10px;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    color: #233032;
+}
+
+.autor {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
