@@ -74,7 +74,8 @@ span {
 /* tabela */
 
 main {
-    padding: 100px 0;
+    width: 100%;
+    padding: 300px;
 }
 main table {
     margin: auto;
@@ -83,7 +84,7 @@ table {
     width: 1200px;
     margin: auto;
     border-radius: 4px;
-    margin: 20px auto;
+    margin: 100px auto;
 }
 .escondida {
     visibility: hidden;
