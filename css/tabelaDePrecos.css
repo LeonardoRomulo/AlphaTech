@@ -21,6 +21,7 @@ span {
     width: 100%;
     display: flex;
     background-color: #2f86d6;
+    position: fixed;
 }
 
 .container {
