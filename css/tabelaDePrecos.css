@@ -69,6 +69,15 @@ span {
     font-size: 16px;
 }
 
+
+/* tabela */
+
+table {
+    border: 1px solid #2f86d6;
+    margin: 20px auto;
+}
+
+
 /* rodape */
 
 footer {
