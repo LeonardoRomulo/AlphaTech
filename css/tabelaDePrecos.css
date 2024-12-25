@@ -17,7 +17,7 @@ span {
 /* topo */
 
 
-.topo{
+.topo {
     width: 100%;
     display: flex;
     background-color: #2f86d6;
@@ -38,12 +38,12 @@ span {
 
 }
 
-.topo img{
+.topo img {
     width: 80px;
     height: 70px;
 }
 
-.texto-cabecalho{
+.texto-cabecalho {
     display: flex;
     flex-direction: column;
 }
@@ -60,7 +60,7 @@ span {
     margin-right: 0;
 }
 
-.topo  a{
+.topo a {
     font-size: 18px;
     color: #fff;
 }
@@ -72,11 +72,65 @@ span {
 
 /* tabela */
 
+main {
+    padding: 100px 0;
+}
+main table {
+    margin: auto;
+}
 table {
-    border: 1px solid #2f86d6;
+    width: 1200px;
+    margin: auto;
+    border-radius: 4px;
     margin: 20px auto;
 }
+.escondida {
+    visibility: hidden;
+}
+table thead th {
+    text-align: center;
+    margin: auto;
+    background-color: #f1f3f7;
+    ;
+}
 
+table thead th h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: 15px auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+.alinhamento {
+    background-color: #f1f3f7;
+    text-align: left
+}
+
+table tbody  td {
+    font-size: 14px;
+    max-width: 1024px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.check {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100%;
+
+
+}
 
 /* rodape */
 
@@ -85,17 +139,30 @@ footer {
     width: 100%;
     background-color: #2f86d6;
 }
+
+footer> p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 70px;;
+}
+
 .box-logo-rodape {
-    width: 320px;
+    width: 370px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
+.box-logo-rodape img {
+    width: 80px;
+}
+
 .box-logo-rodape img {
     width: 80px;
     height: 80px;
 }
+
 .txt-logo-rodape {
     display: flex;
     flex-direction: column;
